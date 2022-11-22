@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+html {
+  overflow-y: overlay;
+}
+
+.App{
+  overflow-y: overlay;
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+video {
+  filter: brightness(25%);
+}
+
+#background-video {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -2;
+}
+
+.MuiAccordion-root{
+  color:#fff !important;
+}
+  .MuiInputBase-input{
+    color: #fff !important;
+  }
+  .MuiInputLabel-root{
+    color: #eee !important;
+  }
+
+a{     
+  text-decoration: none;
+  color:white;  
+}     
+a:active,
+a:hover {
+  color: #ccc;
+}
+
+a.active{
+    color:#2196f3;
+}
+
+.MuiFormHelperText-root{
+  color:#eee !important;
+}
+
+.MuiDialog-paper{
+  background: none !important;
+}
+
+.MuiDialog-paper {
+  background-color: "none" !important;
+}
+
+.MuiPaper-root{
+  background-color:"none" !important;
+}
+
+@media (min-width:1200px){
+  .w1200{
+    display:none;
+  }
+}
+
+*::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+*::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+*::-webkit-scrollbar-thumb:active {
+  background: rgba(0, 0, 0, .9);
+}
